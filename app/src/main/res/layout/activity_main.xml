@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+<!--empty line-->
+<!--    тут тоже непонятно нафига ConstraintLayout-->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,7 +19,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
+<!--        margin instead marginVertical/horizontal-->
+<!--empty line-->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,13 +37,14 @@
                 android:textColor="@color/black"
                 android:textSize="65sp"
                 android:textStyle="bold" />
+<!--            id для чего тут понадобился?-->
 
             <ImageView
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:src="@drawable/tic_tac_toe_hand_drawn_icon">
             </ImageView>
-
+<!--empty line-->
 
         </LinearLayout>
 
@@ -84,7 +87,7 @@
                 android:textSize="36sp"
                 app:cornerRadius="16dp" />
         </LinearLayout>
-
+<!--empty line-->
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
